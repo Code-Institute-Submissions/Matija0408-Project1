@@ -4,7 +4,7 @@ On this site I showcase my web development skills, sites I have built and the pr
 
 UX  -  This site is for recruiters considering to hire, or for whoever is looking to hire a web developer.
  
-FEATURES : 
+FEATURES :  
           HOMEPAGE      - Developers name and title 
           ABOUT 	- Short owner introduction with projects built
           CONTACT	- Contact form

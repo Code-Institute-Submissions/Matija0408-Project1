@@ -14,52 +14,55 @@
 </head>
 
 <body>
-  <main class="container-fluid contact-main bg-contact">
-    <!--nav boilerplate taken from Bootstrap doc-->
-    <div class="row">
-      <div class="col">
-        <ul class="nav justify-content-center links">
-          <li class="nav-item">
-            <a class="nav-link border-h" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link border-d" href="assets/doc/FakeCV.pdf" target="_blank"><i class="fa fa-download"
-                aria-hidden="true"></i>&nbsp CV</a>
-          </li>
-        </ul>
+  <main class="bg-contact">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div class="fixed-top">
+            <ul class="nav justify-content-center links">
+              <li class="nav-item">
+                <a class="nav-link border-h" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link border-d" href="assets/doc/FakeCV.pdf" target="_blank"><i class="fa fa-download"
+                    aria-hidden="true"></i>&nbsp CV</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-    <!--nav boilerplate taken from Bootstrap doc-->
     <!--Contact form-->
     <div class="container-fluid">
-      <div class="row offset-md-1">
-        <form action="#" metod="post" class="col">
+      <div class="row">
+        <form action="#" metod="post" class="col-md-6 offset-md-3 text-center">
           <h2 class="contact-position">CONTACT</h2>
-          <div class="form-input">
+          <div class="form-input mx-auto">
             <input class="form-control" type="text" name="name" id="name" placeholder="Name" required />
           </div>
-          <div class="form-input">
+          <div class="form-input mx-auto">
             <input class="form-control" type="email" name="email" id="email" placeholder="Email" required />
           </div>
-          <div class="form-input">
+          <div class="form-input mx-auto">
             <input class="form-control" type="text" name="phone" id="phonenumber" placeholder="Phone" required />
           </div>
           <div class="textarea-contact">
-            <textarea class="form-control" type="text" name="text" id="text" placeholder="Message" required></textarea>
+            <textarea class="form-control mx-auto" type="text" name="text" id="text" placeholder="Message"
+              required></textarea>
           </div>
           <div>
             <button class="btn btn-info button">Send</button>
           </div>
         </form>
-        <!--Contact form-->
       </div>
     </div>
+    <!--Contact form-->
   </main>
   <!--Footer-->
   <footer class="container-fluid footer-bg-color fixed-bottom">

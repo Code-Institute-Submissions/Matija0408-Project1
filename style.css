@@ -35,13 +35,22 @@ header,
   color: #fff;
   background-color: rgba(115, 174, 192, 0.84);
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   font-family: "Roboto", sans-serif;
   transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
+}
+
+.nav-link {
+  display: block;
+  padding: 5px 10px;
+}
+
+.nav-zindex {
+  z-index: -1;
 }
 
 .border-h {
@@ -285,21 +294,17 @@ main h3 {
 }
 
 .contact-position {
-  margin-top: 130px;
+  margin-top: 75px;
   margin-left: 19px;
   color: #fff;
   font-weight: 300;
 }
 
-textarea.form-control {
-    min-height: 180px;
-    max-width: 500px;
-    min-width: 340px;
-}
-
 textarea {
   overflow: auto;
   resize: both;
+  min-height: 200px;
+  max-width: 500px;
 }
 
 .contact-main {
@@ -307,12 +312,12 @@ textarea {
 }
 
 .form-input {
-  width: 340px;
-  margin: 20px 0 20px 20px;
+  margin: 10px 0;
+  max-width: 300px;
 }
 
 .textarea-contact {
-  margin: 20px;
+  margin: 10px 0;
 }
 
 .button {
@@ -378,6 +383,83 @@ textarea {
 @media (max-width: 414px) {
   .point-div-size {
     height: 100px;
+  }
+}
+
+@media (max-width: 414px) {
+  .mobile-text-center {
+    text-align: center;
+  }
+}
+
+@media (max-width: 414px) {
+  .about-quote {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 320px) {
+  .contact-position {
+    margin-top: 45px;
+    margin-bottom: 15px;
+    margin-left: 19px;
+    color: #fff;
+    font-weight: 300;
+  }
+  .btn {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 360px) {
+  .contact-position {
+    margin-top: 65px;
+    margin-bottom: 38px;
+    margin-left: 19px;
+    color: #fff;
+    font-weight: 300;
+  }
+  .btn {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 411px) {
+  .contact-position {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: 19px;
+    color: #fff;
+    font-weight: 300;
+  }
+  .btn {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-position {
+    margin-top: 130px;
+    margin-bottom: 100px;
+    margin-left: 19px;
+    color: #fff;
+    font-weight: 300;
+  }
+  .btn {
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact-position {
+    margin-top: 75px;
+    margin-bottom: 50px;
+    margin-left: 19px;
+    color: #fff;
+    font-weight: 300;
+  }
+  .btn {
+    margin-top: 50px;
   }
 }
 /*Media queries*/
